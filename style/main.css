@@ -1,19 +1,15 @@
 body {
 	background-color: darkred;
 }
+
 div {
 	background-color: gold;
 	border: 5px solid aquamarine;
 	padding: 30px;
 }
-a:link {
-    color: green; 
-    background-color: transparent; 
-    text-decoration: none;
-}
 
 a:visited {
-    color: green;
+    color: blue;
     background-color: transparent;
     text-decoration: none;
 }
