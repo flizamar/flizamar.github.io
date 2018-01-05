@@ -1,1 +1,1 @@
-Pagina de los dinos
+Página de los dinos
