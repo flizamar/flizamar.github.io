@@ -14,7 +14,6 @@ nav.navegation {
 
 h1.title {
 	display: inline;
-	white-space: nowrap;
 	color: white;
 }
 
@@ -22,12 +21,17 @@ div.menu {
 	background-color: #24292e;
 	padding-left: 30px;
 	padding-top: 1px;
-	padding-bottom: 30px;
 }
 
 div.references {
 	border: 5px #247979;
-	padding: 30px;
+	padding-top: 128px;
+	padding-left: 30px;
+}
+
+div.centerBody {
+	padding: 200px;
+	text-align: center;
 }
 
 a.title:link {
