@@ -12,6 +12,11 @@ nav.navegation {
 	padding-bottom: 10px;
 }
 
+img.logo {
+	float: left;
+	width: 200px;
+}
+
 h1.title {
 	display: inline;
 	color: white;
@@ -64,9 +69,4 @@ a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: none;
-}
-
-img.logo {
-	float: left;
-	width: 200px;
 }
