@@ -43,30 +43,14 @@ a.title:link {
 }
 
 a.title:visited {
-  color: #white;
+  color: #ccc;
   text-decoration: none;
 }
 
-a:link {
+a.title:hover {
+	color: white;
+	background-color: transparent;
 	text-decoration: none;
-}
-
-a:visited {
-  color: #ccc;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active {
-  color: #ccc;
-  background-color: transparent;
-  text-decoration: none;
 }
 
 .headerText {
