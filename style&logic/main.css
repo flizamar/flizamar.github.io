@@ -43,8 +43,8 @@ a.title:link {
 }
 
 a.title:visited {
-    color: white;
-    text-decoration: none;
+  color: #white;
+  text-decoration: none;
 }
 
 a:link {
@@ -52,35 +52,25 @@ a:link {
 }
 
 a:visited {
-    color: blue;
-    background-color: transparent;
-    text-decoration: none;
+  color: #ccc;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: none;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: none;
+  color: #ccc;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-.parent{
-    position: relative;
-    margin: 2em;
-}
-
-.parent img{
-    position: absolute;
-}
-
-.parent .overlay{
-    position: absolute;
-    top: -1em;
-    text-align: center;
-    width: 100%;
+.headerText {
+	margin: 10rem;
+	font-weight: bold;
+	color: black;
 }
