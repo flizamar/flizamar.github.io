@@ -47,16 +47,6 @@ div.img {
   height: 200px;
 }
 
-div.u-list {
-  display: grid;
-  grid-template-columns: auto;
-}
-
-[class *= "l-item-"] {
-  padding: 5px;
-  color: #FFF;
-}
-
 /* For mobile phones: */
 [class *= "col-"] {
   float: left;
