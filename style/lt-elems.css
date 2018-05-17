@@ -1,10 +1,12 @@
-a {
-  color: inherit;
+a, span.member{
+  color: #1f6eaf;
+  font-weight: bold;
   text-decoration: none;
   transition: 0.2s;
 }
 
-a:hover {
+a:hover, span.member:hover {
+  cursor: pointer;
   color: #000;
 }
 

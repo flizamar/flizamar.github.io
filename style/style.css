@@ -1,4 +1,4 @@
-@import "anchor.css";
+@import "lt-elems.css";
 
 * {
   box-sizing: border-box;
@@ -45,16 +45,6 @@ div.menu {
 div.img {
   background: #012;
   height: 200px;
-}
-
-div.u-list {
-  display: grid;
-  grid-template-columns: auto;
-}
-
-[class *= "l-item-"] {
-  padding: 5px;
-  color: #FFF;
 }
 
 /* For mobile phones: */
