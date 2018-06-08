@@ -2,6 +2,12 @@ p {
   margin-bottom: 0;
 }
 
+.body-content {
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .logo-container {
   position: absolute;
   top: -65px;
@@ -11,6 +17,13 @@ p {
   width: 170px;
 }
 
-.body-content {
-  margin-top: 10%;
+@media only screen and (max-width: 576px) {
+  .logo-container {
+    position: absolute;
+    top: -80px;
+  }
+
+  .img-logo {
+    width: 70px;
+  }
 }
